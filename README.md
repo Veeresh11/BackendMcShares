@@ -37,7 +37,7 @@ Add the `help` flag on any command to see how you can use it. For example, `npm 
 
 The `npm run` command will list all of the scripts available to run for this project.
 
-### PWA Support
+### PWA Support (Not applicable)
 
 JHipster ships with PWA (Progressive Web App) support, and it's turned off by default. One of the main components of a PWA is a service worker.
 
@@ -47,7 +47,7 @@ The service worker initialization code is disabled by default. To enable it, unc
 ServiceWorkerModule.register('ngsw-worker.js', { enabled: false }),
 ```
 
-### Managing dependencies
+### Managing dependencies (Not applicable)
 
 For example, to add [Leaflet][] library as a runtime dependency of your application, you would run following command:
 
@@ -78,7 +78,7 @@ Note: There are still a few other things remaining to do for Leaflet that we won
 
 For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][].
 
-### Using Angular CLI
+### Using Angular CLI (Not applicable)
 
 You can also use [Angular CLI][] to generate some custom client code.
 
@@ -96,7 +96,7 @@ create src/main/webapp/app/my-component/my-component.component.ts
 update src/main/webapp/app/app.module.ts
 ```
 
-### Doing API-First development using openapi-generator
+### Doing API-First development using openapi-generator (Not applicable)
 
 [OpenAPI-Generator]() is configured for this application. You can generate API code from the `src/main/resources/swagger/api.yml` definition file by running:
 
@@ -110,9 +110,9 @@ To edit the `api.yml` definition file, you can use a tool such as [Swagger-Edito
 
 Refer to [Doing API-First development][] for more details.
 
-## Building for production
+## Building for production (Not applicable as prod profile is not configured)
 
-### Packaging as jar
+### Packaging as jar (Not applicable as prod profile is not configured)
 
 To build the final jar and optimize the BackendMcShare application for production, run:
 
@@ -131,7 +131,7 @@ Then navigate to [http://localhost:8080](http://localhost:8080) in your browser.
 
 Refer to [Using JHipster in production][] for more details.
 
-### Packaging as war
+### Packaging as war (Not applicable as prod profile is not configured)
 
 To package your application as a war in order to deploy it to an application server, run:
 
